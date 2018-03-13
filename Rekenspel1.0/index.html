@@ -2,16 +2,28 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="description" content="rekenen voor basisschool kinderen"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Rekenspel 1.0</title>
   </head>
   <body>
-    <div id="wrapper">
+    <div id="container">
+      <div id="content">  
       <div id="head">Rekenspel 1.0</div>
-      <div id="myAssignment">Hier komt de opgave</div>
-      <input type="text" id="myAnswer" autofocus>
-      <img src="img/feedback.png" id="feedback"> <!-- MOET NOG IMG HEBBEN -->
-    </div>
+      <div id="myAssignment">
+       
+      </div>
+      <div id="body">
+        <fieldset>
+        <legend>Antwoord: </legend>    
+        <input type="text" id="myAnswer" autofocus>
+        </fieldset>   
+      </div>
+      <div id="footer">
+          <p>Goed: 0</p>
+          <p>Fout: 0</p>
+      </div>    
     <script src="script.js"></script>
   </body>
 </html>

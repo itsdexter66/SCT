@@ -1,3 +1,22 @@
-body {
-  background-color: rgb(208, 253, 254)
+.container {
+    width: -moz-fit-content;
+    width: fit-content;
+    display: block;
+    margin: 10% auto 0 auto;
+    background: blue
+}
+
+.container > div {
+    text-align: center
+}
+
+#content {
+    border: 1px solid black
+}
+
+#footer {
+    background: none;
+    font-weight: bold;
+    padding: 10px
+
 }
